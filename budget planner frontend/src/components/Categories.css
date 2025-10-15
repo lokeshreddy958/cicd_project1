@@ -1,0 +1,113 @@
+.categories {
+  padding: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.categories-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.add-category {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.add-category h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #68a6ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #528ac6;
+}
+
+.categories-list {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex: 2;
+  min-width: 300px;
+}
+
+.categories-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.category-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  position: relative;
+}
+
+.category-card.income {
+  border-left: 4px solid #28a745;
+}
+
+.category-card.expense {
+  border-left: 4px solid #dc3545;
+}
+
+.category-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.type {
+  color: #666;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.category-card small {
+  color: #999;
+}
